@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for dockerenv in $(p4aspaces list-envs | grep p4a | grep api | grep -v shell | xargs); do
+    mkdir -p "${dockerenv}"
+    p4aspaces print-dockerfile "${dockerenv}" > "${dockerenv}"/Dockerfile
+done
