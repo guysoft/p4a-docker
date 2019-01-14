@@ -5,7 +5,7 @@ Genrated p4a docker files from [p4a-build-spaces](https://github.com/JonasT/p4a-
 
 The containers are avilable at: https://hub.docker.com/r/guysoft/p4a
 
-Avilabe tags:
+Avilable tags:
 
 
 * ``p4a-py2-api19-ndkbundle``
